@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Home Christmas';
+    src: url('../fonts/Home_Christmas.otf')
+}
+
+@font-face {
+    font-family: 'Varela Round';
+    src: url('../fonts/VarelaRound.ttf')
+}
+
+* {
+    color: hsl(45, 33%, 95%);
+    font-family: 'Varela Round';
+}
+
+body {
+    background-color: hsl(0, 64%, 47%);
+    margin-left:2.5%;
+    margin-top: 2.5%;
+    margin-right:2.5%;
+    margin-bottom: 2.5%;
+}
+
+main {
+    height: 65vh;
+}
+
+h1, h2 {
+    font-family: 'Home Christmas', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    padding: 0.5rem 2rem;
+    width: fit-content;
+    font-size: 2rem;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0%, 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20.5%;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+p.direccion {
+    margin-top: 2.5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Varela Round';
+}
+
+p.carta {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Varela Round';
+    color:rgb(255, 255, 255);
+    background-image: url('../img');
+}
